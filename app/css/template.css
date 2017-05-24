@@ -1,0 +1,19 @@
+html {
+    font-size: 16px;
+}
+
+
+.header, .footer {
+    font-size: 2rem;
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: .7rem;
+}
